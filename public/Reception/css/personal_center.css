@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,li,div{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    background-color: #eee;
+    color: #202020;
+}
+a{
+    text-decoration: none;
+}
+b{
+    font-weight: normal;
+}
+@media screen and (max-width: 767px) {
+    #header{
+        width: 100%;
+        min-height: 100px;
+        background-color: #0191E8;
+    }
+    #header *{
+        vertical-align: middle;
+    }
+    #header>p{
+        padding: 20px 0;
+        margin-left: 10px;
+    }
+    #header>p>img{
+        width: 60px;
+        height: 60px;
+        border: 2px solid #4AAEEA;
+        border-radius: 50px;
+    }
+    #header>p>span{
+        margin-left: 5px;
+        color: #fff;
+    }
+    #header>.header_box{
+        min-height: 55px;
+        background-color: #fff;
+    }
+    .header_box div{
+        display: inline-block;
+    }
+    .header_box>.box_left{
+        width: 32.3%;
+        min-height: 55px;
+        text-align: center;
+        padding: 6px 0;
+    }
+    .box_left>a *{
+        color: #5B5B5B ;
+        font-size: 12px;
+    }
+    .box_left>a>img{
+        width: 22px;
+        height: 20px;
+    }
+    #content{
+        width: 100%;
+        min-height: 200px;
+        margin-top: 10px;
+        background-color: #fff;
+    }
+    #content>.tuiJian{
+        margin-left:10px;
+        min-height: 50px;
+        line-height: 50px;
+        border-bottom: 1px solid #ddd;
+    }
+    .tuiJian>a{
+        display: block;
+        min-height: 50px;
+    }
+    .tuiJian>a *{
+        vertical-align: middle;
+    }
+    .tuiJian>a>.pic{
+        width: 20px;
+        height: 20px;
+    }
+    .tuiJian>a>span{
+        color: #202020;
+        font-size: 15px;
+        margin-left: 5px;
+    }
+    .tuiJian>a>.jianTou{
+        margin-right: 10px;
+        float: right;
+        width: 10px;
+        height: 16px;
+        margin-top: 20px;
+    }
+}

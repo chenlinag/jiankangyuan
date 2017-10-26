@@ -1,0 +1,82 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
+    <title>记运动</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,li,div{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        body{
+            background-color: #eee;
+            color: #202020;
+        }
+        a{
+            text-decoration: none;
+        }
+        @media screen and (max-width: 767px) {
+            .weight_box{
+                width: 100%;
+                min-height: 150px;
+                margin-top: 10px;
+                margin-bottom: 180px;
+                background-color: #fff;
+                border-top: 1px solid #ddd;
+                border-bottom: 1px solid #ddd;
+            }
+            .weight_box>.box{
+                padding:0 3%;
+                min-height: 50px;
+                line-height: 50px;
+                border-bottom: 1px solid #ddd;
+            }
+            .box>p{
+                display:inline-block;
+                width: 50%;
+                font-size: 14px;
+            }
+            .box>.company{
+                float: right;
+                text-align: right;
+            }
+            .weight_box>.test_time{
+                border-bottom: none;
+            }
+            #footer{
+                width: 90%;
+                min-height: 50px;
+                line-height: 50px;;
+                border-radius: 5px;;
+                margin: 0 auto;
+                color: #fff;
+                font-size: 20px;;
+                text-align: center;
+                background-color: #0191E8;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="weight_box">
+    <div class="box">
+        <p>记录日期</p>
+        <p class="company">2017年9月21日</p>
+    </div>
+    <div class="box">
+        <p>运动方式</p>
+        <p class="company">请选择运动方式</p>
+    </div>
+    <div class="box test_time">
+        <p>运动时长</p>
+        <p class="company">--分钟</p>
+    </div>
+</div>
+<div id="footer">保 存</div>
+</body>
+</html>

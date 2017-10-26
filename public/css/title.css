@@ -1,0 +1,129 @@
+p,span,h1,h2,h3,h4,h5,h6,a,ul,li,tr,td,div{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration:none;
+} 
+a:hover{
+	text-decoration:none;
+	
+} 
+/*顶部*/
+.top{
+	width:100%;
+	height:88px;
+	background:#364a5a;
+}
+/*管理系统*/
+.top-left{
+	font-size:40px;
+	color:#fff;
+	margin-left:2%;
+	float:left;
+	padding-top:18px;
+	font-family:宋体;
+	/**/
+}
+.top-left img{
+	/*float:left;*/
+	margin-right: 240px;
+}
+/*三个功能*/
+.top-right{
+	font-size:18px;
+	/*text-align: center;*/
+	float:right;
+	margin-right:1%;
+	padding-top:28px;
+}
+.top-right img{
+	float:left;
+}
+.top-right span{
+	color:#fff;
+	margin: 0 20px 0 5px;
+	line-height:34px;
+}
+.top-div{
+	float:left;
+}
+/*左边*/
+.right{
+	
+	width:12%;
+	height:100%;
+	background:#364a5a;
+	float:left;
+}
+.right  img{
+	width:22px;
+	height:22px;
+	margin-right:12px;
+	float:left;
+	margin-top:4%;
+}
+.right ul li:hover{
+	height:40px;
+	font-size:16px;
+	color:#fff;
+	list-style-type:none;
+	background:#e34e42;
+
+}
+.right ul a li{
+	display: block;
+	height:40px;
+	font-size:16px;
+	color:#fff;
+	list-style-type:none;
+	border-bottom:2px solid #384e61;
+	/*background:#f00;*/
+}
+.right ul a{
+	display: block;
+	height:40px;
+	font-size:16px;
+	color:#fff;
+	list-style-type:none;
+	border-bottom:2px solid #384e61;
+	/*background:#f00;*/
+}
+.right ul li p{
+	margin:0 0 0 14%;
+	line-height:235%;
+}
+/*内容*/
+#content{
+	overflow:scroll;
+	width:87.3%;
+	height:100%;
+	padding:10px 0 0 10px;
+	float:left;
+}
+.active{
+	background:#e34e42;
+	}
+
+	 	*, *:before, *:after {
+            box-sizing: border-box;
+        }
+        body, html {
+            height: 100%;
+            overflow: hidden;
+        }
+        body, ul {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            color: #4d4d4d;
+            font: 14px/1.4em 'Helvetica Neue', Helvetica, 'Microsoft Yahei', Arial, sans-serif;
+            background: #f5f5f5 url('__ROOT__/library/dist/images/bg.jpg') no-repeat center;
+            background-size: cover;
+            font-smoothing: antialiased;
+        }
+        ul{
+            list-style:none;
+        }
+  

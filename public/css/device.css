@@ -1,0 +1,141 @@
+#dev-huan{
+	margin-left:1%;
+}
+/**/
+#caxun input{
+	position: absolute;
+    font-size: 70px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+#caxun{
+	position: relative;
+    display: inline-block;
+    background: #0ec889;
+    border-radius: 4px;
+    padding: 7px 20px;
+    overflow: hidden;
+    color: #fff;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 20px;
+}
+#dev-tr{
+	background:#e34e42;
+	font-size: 20px;
+	color:#fff;
+}
+#dev-tr td{
+	padding:10px 0;
+}
+#dev-div table{
+	width:100%;
+	margin:1%;
+}
+#dev-div table tr td{
+	padding:10px; 0;
+	border-bottom: 1px solid #ddd;
+}
+	/*详情*/
+	
+	#ui-details{
+		position:relative;
+		position:fixed;
+		left: 30%;
+    	top: 20%;	
+		z-index:9998;	
+		width:40%;
+		height:380px;
+		background:#fff;						
+		border-radius:15px;
+	}	
+	#ui-details-title{
+	    padding: 0 10px;
+	    height: 31px;
+	    line-height: 31px;
+	    background: #f3f3f3;
+	    font-size: 14px;
+	    color: #666;
+	    font-family: "Microsoft YaHei";	
+	    border-radius:15px 15px 0 0 ;
+	  	border-bottom: 1px dashed #bbb;
+	}
+	.ui-details-close {
+	    cursor: pointer;
+	    display: block;
+	    position: absolute;
+	    z-index: 100000;
+	    top: 5px;
+	    right: 10px;
+	    overflow: hidden;
+	    width: 18px;
+	    height: 17px;
+	    background: url("../images/close.png") no-repeat;
+	    font-size: 0;
+	}
+	#ui-details-tr td{
+		color:#0fc789;
+		width:80px;
+		font-size:16px;
+		/*border-bottom: 1px dashed #384E61;*/
+	}	
+	.ui-details-tr td{
+		border-bottom: 1px dashed #ccc;
+	
+	}
+	/*详情*/
+
+	/*添加设备*/
+	#ui-hsanghai{
+		position:relative;
+		position:fixed;
+		left: 40%;
+    	top: 20%;	
+		z-index:9998;	
+		width:42%;
+		height:380px;
+		background:#fff;						
+		border-radius:15px;
+	}	
+	#ui-hsanghai-title{
+	    padding: 0 10px;
+	    height: 31px;
+	    line-height: 31px;
+	    background: #f3f3f3;
+	    font-size: 14px;
+	    color: #666;
+	    font-family: "Microsoft YaHei";	
+	    border-radius:15px 15px 0 0 ;
+	  	border-bottom: 1px dashed #bbb;
+	}
+	.ui-hsanghai-close {
+	    cursor: pointer;
+	    display: block;
+	    position: absolute;
+	    z-index: 100000;
+	    top: 5px;
+	    right: 10px;
+	    overflow: hidden;
+	    width: 18px;
+	    height: 17px;
+	    background: url("../images/close.png") no-repeat;
+	    font-size: 0;
+	}
+#ui-shuru{
+	width:59%;
+	font-size:18px;
+	margin:68px auto 0;
+	text-align: center;
+}
+#ui-shuru p input{
+	padding:5px 10px;
+	font-size:16;
+	margin:10px 10;
+}
+#ui-shuru p select{
+	 width: 62%;
+	 height:37.3px;
+	 margin-bottom:50px;
+
+}

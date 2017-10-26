@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
+    <title>没有积分</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,li,div{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        body{
+            background-color: #eee;
+            color: #202020;
+        }
+        a{
+            text-decoration: none;
+        }
+        @media screen and (max-width: 767px) {
+            .box{
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+            }
+            .box>.box_con{
+                width: 100%;
+                height: 150px;
+                position: absolute;
+                top:40%;
+                left: 0;
+            }
+            .box_con>.con_pic{
+                width: 100%;
+                height: 100px;
+                text-align: center;
+                padding: 10px 0;
+            }
+            .con_pic>img{
+                width: 120px;
+                height: 80px;
+                margin: 0 auto;
+            }
+            .box_con>.con_no{
+                width: 100%;
+                height: 25px;
+                line-height: 25px;
+                font-size: 14px;
+                color: #777;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <div class="box_con">
+        <p class="con_pic"><img src="__ROOT__/public/Reception/images/per/kong.png" alt=""/></p>
+        <p class="con_no">亲，您暂时还没有积分哟！</p>
+        <p class="con_no">快去分享获得积分吧！</p>
+    </div>
+</div>
+</body>
+</html>

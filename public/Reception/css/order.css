@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,li,div{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    background-color: #eee;
+    color: #202020;
+}
+a{
+    text-decoration: none;
+}
+@media screen and (max-width: 767px) {
+    #main{
+        width: 100%;
+        min-height: 252px;
+        margin-top: 20px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+    }
+    #main>.main_box{
+        margin-left: 3%;
+        width: 97%;
+        height: 50px;
+        line-height: 50px;
+    }
+    #main .box{
+        border-top: 1px solid #ddd;
+    }
+    .main_box>img{
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+    }
+    #main>.main_box *{
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .main_box>input{
+        height: 45px;
+        border: none;
+        outline: none;
+        font-size: 14px;
+    }
+    /*#footer{
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        margin-top: 70px;
+    }
+    #footer>a{
+        display: block;
+        width: 95%;
+        height: 50px;
+        line-height: 50px;
+        margin: 0 auto;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 20px;
+        background-color: #0191E8;
+    }*/
+       /*提交修改*/
+
+}

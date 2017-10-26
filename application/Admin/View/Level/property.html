@@ -1,0 +1,418 @@
+
+		<table style="background:#ddd; width:100%; margin:10px 0;">
+			<tr>
+				<td id="tabletd">顾问三</td>
+				<td id="tabletd">重庆南方医师大学</td>
+				<td id="tabletd">营销E组</td>
+				<td style="width:55%;"></td>
+			</tr>
+		</table>
+	
+	
+		<div class="tows">
+			<form action="__APP__/Patient/select" method="post">
+				<table>
+					<tr>
+						<td>姓名：</td>
+						<td class="td"><input type="text" name="name" placeholder="请输入姓名"></td>
+						<td>用户账号：</td>
+						<td class="td"><input type="text" name="user" placeholder="请输入用户账号"></td>
+						<td>身份证号：</td>
+						<td class="td"><input type="text" name="iden" placeholder="请输入身份证"></td>
+						<td>
+							<a href="javascript:;" class="file">搜 索
+		   					  <input type="submit">
+							</a>
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	<div class="tabke-table">
+			<table style="width:97%;height:50px;">
+				<tr class="patien-tr">
+					<td>姓 名</td>
+					<td>用 户 账 号</td>
+					<td>性 别</td>
+					<td>年 龄</td>
+					<td>设备编号</td>
+					<td>设备绑定</td>
+					<td>解绑</td>
+					<td>详情</td>
+					<td>删除</td>
+					<td>自动测量</td>
+					<td>组别</td>
+				</tr>
+				<tr class="one-tr">
+					<td>阿斯顿</td>
+					<td>15346215479</td>
+					<td>女</td>
+					<td>20</td>
+					<td>25546122130546111</td>
+					<td><a href="javascript:;" class="payment" ><img class="pat-img" src="__ROOT__/public/images/hzgl/bangding.png"/></a></td>
+					<td><a href="javascript:;" class="jiebang" ><img class="pat-img" src="__ROOT__/public/images/hzgl/jiebang.png"/></td>
+					<td><a href="__APP__/Patient/details/id/1" class="xiangqing" ><img class="pat-img" src="__ROOT__/public/images/hzgl/xiangqing.png"/></a></td>
+					<td><a onclick="delete()"><img class="pat-img" src="__ROOT__/public/images/hzgl/delete.png"/></a></td>
+					<td><a href="javascript:;" class="measure" ><img class="pat-img" src="__ROOT__/public/images/hzgl/celinag.png"/></a></td>
+					<td><if condition="1=='1'"><span style="color:#0ec889;">XXX组</span><else/><span style="color:#f00;">未分组</span></if></td>
+				</tr>
+				<tr class="one-tr">
+					<td>阿斯顿</td>
+					<td>15346215479</td>
+					<td>男</td>
+					<td>20</td>
+					<td>25546122130546111</td>
+					<td><a href="javascript:;" class="payment" ><img class="pat-img" src="__ROOT__/public/images/hzgl/bangding.png"/></a></td>
+					<td><a href="javascript:;" class="jiebang" ><img class="pat-img" src="__ROOT__/public/images/hzgl/jiebang.png"/></a></td>
+					<td><a href="__APP__/Patient/details/id/2" class="xiangqing" ><img class="pat-img" src="__ROOT__/public/images/hzgl/xiangqing.png"/></a></td>
+					<td><a onclick="delete()"><img class="pat-img" src="__ROOT__/public/images/hzgl/delete.png"/></a></td>
+					<td><a href="javascript:;" class="measure" ><img class="pat-img" src="__ROOT__/public/images/hzgl/celinag.png"/></a></td>
+					<td><if condition="1=='1'"><span style="color:#0ec889;">XXX组</span><else/><span style="color:#f00;">未分组</span></if></td>
+				</tr>
+				<tr class="one-tr">
+					<td>阿斯顿</td>
+					<td>15346215479</td>
+					<td>女</td>
+					<td>20</td>
+					<td>25546122130546111</td>
+					<td><a href="javascript:;" class="payment" ><img class="pat-img" src="__ROOT__/public/images/hzgl/bangding.png"/></a></td>
+					<td><a href="javascript:;" class="jiebang" ><img class="pat-img" src="__ROOT__/public/images/hzgl/jiebang.png"/></a></td>
+					<td><a href="__APP__/Patient/details/id/3" class="xiangqing" ><img class="pat-img" src="__ROOT__/public/images/hzgl/xiangqing.png"/></a></td>
+					<td><a onclick="delete()"><img class="pat-img" src="__ROOT__/public/images/hzgl/delete.png"/></a></td>
+					<td><a href="javascript:;" class="measure" ><img class="pat-img" src="__ROOT__/public/images/hzgl/celinag.png"/></a></td>
+					<td><if condition="1=='4'"><span style="color:#0ec889;">XXX组</span><else/><span style="color:#f00;">未分组</span></if></td>
+				</tr>
+				<tr class="one-tr">
+					<td>阿斯顿</td>
+					<td>15346215479</td>
+					<td>男</td>
+					<td>20</td>
+					<td>2554612213SWAF11</td>
+					<td><a href="javascript:;" class="payment" ><img class="pat-img" src="__ROOT__/public/images/hzgl/bangding.png"/></a></td>
+					<td><a href="javascript:;" class="jiebang" ><img class="pat-img" src="__ROOT__/public/images/hzgl/jiebang.png"/></a></td>
+					<td><a href="__APP__/Patient/details/id/4" class="xiangqing" ><img class="pat-img" src="__ROOT__/public/images/hzgl/xiangqing.png"/></a></td>
+					<td><a onclick="delete()"><img class="pat-img" src="__ROOT__/public/images/hzgl/delete.png"/></a></td>
+					<td><a href="javascript:;" class="measure" ><img class="pat-img" src="__ROOT__/public/images/hzgl/celinag.png"/></a></td>
+					<td><if condition="1=='1'"><span style="color:#0ec889;">XXX组</span><else/><span style="color:#f00;">未分组</span></if></td>
+				</tr>
+				<tr class="one-tr">
+					<td>阿斯顿</td>
+					<td>15346215479</td>
+					<td>女</td>
+					<td>20</td>
+					<td>2554ASWAF3054611</td>
+					<td><a href="javascript:;" class="payment" ><img class="pat-img" src="__ROOT__/public/images/hzgl/bangding.png"/></a></td>
+					<td><a href="javascript:;" class="jiebang" ><img class="pat-img" src="__ROOT__/public/images/hzgl/jiebang.png"/></a></td>
+					<td><a href="__APP__/Patient/details/id/5" class="xiangqing" ><img class="pat-img" src="__ROOT__/public/images/hzgl/xiangqing.png"/></a></td>
+					<td><a onclick="delete()"><img class="pat-img" src="__ROOT__/public/images/hzgl/delete.png"/></a></td>
+					<td><a href="javascript:;" class="measure" ><img class="pat-img" src="__ROOT__/public/images/hzgl/celinag.png"/></a></td>
+					<td><if condition="1=='3'"><span style="color:#0ec889;">XXX组</span><else/><span style="color:#f00;">未分组</span></if></td>
+				</tr>
+				<tr class="one-tr">
+					<td>阿斯顿</td>
+					<td>15346215479</td>
+					<td>男</td>
+					<td>20</td>
+					<td>2554612SWAF54611</td>
+					<td><a href="javascript:;" class="payment" ><img class="pat-img" src="__ROOT__/public/images/hzgl/bangding.png"/></a></td>
+					<td><a href="javascript:;" class="jiebang" ><img class="pat-img" src="__ROOT__/public/images/hzgl/jiebang.png"/></a></td>
+					<td><a href="__APP__/Patient/details/id/6" class="xiangqing" ><img class="pat-img" src="__ROOT__/public/images/hzgl/xiangqing.png"/></a></td>
+					<td><a onclick="delete()"><img class="pat-img" src="__ROOT__/public/images/hzgl/delete.png"/></a></td>
+					<td><a href="javascript:;" class="measure" ><img class="pat-img" src="__ROOT__/public/images/hzgl/celinag.png"/></a></td>
+					<td><if condition="1=='1'"><span style="color:#0ec889;">XXX组</span><else/><span style="color:#f00;">未分组</span></if></td>
+				</tr>
+				<tr class="one-tr">
+					<td>阿斯顿</td>
+					<td>15346215479</td>
+					<td>男</td>
+					<td>20</td>
+					<td>2554612SWAF46111</td>
+					<td><a href="javascript:;" class="payment" ><img class="pat-img" src="__ROOT__/public/images/hzgl/bangding.png"/></a></td>
+					<td><a href="javascript:;" class="jiebang" ><img class="pat-img" src="__ROOT__/public/images/hzgl/jiebang.png"/></a></td>
+					<td><a href="__APP__/Patient/details/id/7" class="xiangqing" ><img class="pat-img" src="__ROOT__/public/images/hzgl/xiangqing.png"/></a></td>
+					<td><a onclick="delete()"><img class="pat-img" src="__ROOT__/public/images/hzgl/delete.png"/></a></td>
+					<td><a href="javascript:;" class="measure" ><img class="pat-img" src="__ROOT__/public/images/hzgl/celinag.png"/></a></td>
+					<td><if condition="1=='2'"><span style="color:#0ec889;">XXX组</span><else/><span style="color:#f00;">未分组</span></if></td>
+				</tr>
+				<tr class="one-tr">
+					<td>阿斯顿</td>
+					<td>15346215479</td>
+					<td>男</td>
+					<td>20</td>
+					<td>25546122130546111</td>
+					<td><a href="javascript:;" class="payment" ><img class="pat-img" src="__ROOT__/public/images/hzgl/bangding.png"/></a></td>
+					<td><a href="javascript:;" class="jiebang" ><img class="pat-img" src="__ROOT__/public/images/hzgl/jiebang.png"/></a></td>
+					<td><a href="__APP__/Patient/details/id/8" class="xiangqing" ><img class="pat-img" src="__ROOT__/public/images/hzgl/xiangqing.png"/></a></td>
+					<td><a onclick="delete()"><img class="pat-img" src="__ROOT__/public/images/hzgl/delete.png"/></a></td>
+					<td><a href="javascript:;" class="measure" ><img class="pat-img" src="__ROOT__/public/images/hzgl/celinag.png"/></a></td>
+					<td><if condition="1=='1'"><span style="color:#0ec889;">XXX组</span><else/><span style="color:#f00;">未分组</span></if></td>
+				</tr>
+				<tr class="one-tr">
+					<td>阿斯顿</td>
+					<td>15346215479</td>
+					<td>男</td>
+					<td>20</td>
+					<td>25546122130546111</td>
+					<td><a href="javascript:;" class="payment" ><img class="pat-img" src="__ROOT__/public/images/hzgl/bangding.png"/></a></td>
+					<td><a href="javascript:;" class="jiebang" ><img class="pat-img" src="__ROOT__/public/images/hzgl/jiebang.png"/></a></td>
+					<td><a href="__APP__/Patient/details/id/9" class="xiangqing" ><img class="pat-img" src="__ROOT__/public/images/hzgl/xiangqing.png"/></a></td>
+					<td><a onclick="delete()"><img class="pat-img" src="__ROOT__/public/images/hzgl/delete.png"/></a></td>
+					<td><a href="javascript:;" class="measure" ><img class="pat-img" src="__ROOT__/public/images/hzgl/celinag.png"/></a></td>
+					<td><if condition="1=='0'"><span style="color:#0ec889;">XXX组</span><else/><span style="color:#f00;">未分组</span></if></td>
+				</tr>
+				<tr class="one-tr">
+					<td>阿斯顿</td>
+					<td>15346215479</td>
+					<td>男</td>
+					<td>20</td>
+					<td>25546122130546111</td>
+					<td><a href="javascript:;" class="payment" ><img class="pat-img" src="__ROOT__/public/images/hzgl/bangding.png"/></a></td>
+					<td><a href="javascript:;" class="jiebang" ><img class="pat-img" src="__ROOT__/public/images/hzgl/jiebang.png"/></a></td>
+					<td><a href="__APP__/Patient/details/id/10" class="xiangqing" ><img class="pat-img" src="__ROOT__/public/images/hzgl/xiangqing.png"/></a></td>
+					<td><a onclick="delete()"><img class="pat-img" src="__ROOT__/public/images/hzgl/delete.png"/></a></td>
+					<td><a href="javascript:;" class="measure" ><img class="pat-img" src="__ROOT__/public/images/hzgl/celinag.png"/></a></td>
+					<td><if condition="1=='1'"><span style="color:#0ec889;">XXX组</span><else/><span style="color:#f00;">未分组</span></if></td>
+				</tr>
+			</table>
+	
+	</div>
+		<!--设备绑定-->
+		<div id="ui-dialog">
+			<div id="ui-dialog-title">设备绑定</div>
+			<div class="ui-dialog-close"></div>
+			<div class="login-form">	
+				<span>*设备编号：</span>
+				<h4>绑定GSM</h4>
+			</div>
+			<div class="login-span">
+				<span>12347984564asdasa</span>
+				<h5>血压计</h5>
+				<span>12347984564asdasa</span>
+				<h5>血压计</h5>
+				<span>12347984564asdasa</span>
+				<h5>血压计</h5>
+			</div>
+			<div class="login-a"><a href="#">绑定</a></div>
+		</div>
+		<!--解绑-->
+		<div id="ui-jiebang">
+			<div id="ui-jiebang-title">解绑</div>
+			<div class="ui-jiebang-close"></div>
+			<div class="login-form">	
+				<span>*设备编号：</span>
+				<h4>绑定GSM</h4>
+			</div>
+			<div class="login-span">
+				<span>12347984564asdasa</span>
+				<h5>血压计<img class="login-imgs" src="__ROOT__/public/images/hzgl/delete.png"/></h5>
+				<span>12347984564asdasa</span>
+				<h5>血压计<img class="login-imgs" src="__ROOT__/public/images/hzgl/delete.png"/></h5>		
+			</div>
+		</div>
+		<!--新增-->
+		<div id="ui-xinzeng">
+			<div id="ui-xinzeng-title">新增患者</div>
+			<div class="ui-xinzeng-close"></div>
+			<div class="login-table">	
+				<form action="__APP__/Patient/insert" method="post">
+					<table>
+						<tr>
+							<td>■</td>
+							<td>登 陆 账 号:</td>
+							<td><input type="text" class="in-name" name="login"></td>
+						</tr>
+						<tr>
+							<td>■</td>
+							<td>姓 名:</td>
+							<td><input type="text" class="in-name" name="name"></td>
+						</tr>
+						<tr>
+							<td>■</td>
+							<td>性 别:</td>
+							<td><input type="text" class="in-name" name="gender"></td>
+						</tr>
+						<tr>
+							<td>■</td>
+							<td>身 份 证 号 码:</td>
+							<td><input type="text" class="in-name" name="card"></td>
+						</tr>
+						<div class="login-a"><a href="javascript:;" class="file">保存
+		   					  <input type="submit">
+							</a></div>
+					</table>
+				</form>
+			</div>
+		</div>
+		
+		<!--测量-->
+		<div id="ui-measure" style="position:relative;position:fixed;left: 40%;top: 20%;z-index:9999;width:450px;height:400px;background:#fff;border-radius:15px;">
+			<div id="ui-measure-title" style="padding: 0 10px;height: 44px;line-height: 51px;background: #f3f3f3;font-size: 17px;color: #666;border-radius:15px 15px 0 0;border-bottom: 1px solid #ccc;">设置自动测量</div>
+			<div class="ui-measure-close" style="cursor: pointer;
+		display: block;
+		position: absolute;
+		z-index: 100000;
+		top: 12px;
+		right: 12px;
+		overflow: hidden;
+		width: 28px;
+		height: 28px;
+		"><img src="__ROOT__/public/images/cuo.png"/></div>
+			<div class="login-measure" style="margin: 20px;color: #3ec889;font-size: 18px;">	
+			<form action="__APP__/Patient/celiang" method="post">
+					<table>
+						<tr>
+							<td style="padding	: 15px 0;">■</td>
+							<td>设 置 编 号:</td>
+							<td>
+								<select style=" width:100%;height:40px;" name="select" style="width:100%;">
+									<option class="pat-na" value="1">20123456KJEFSA</option>
+									<option class="pat-na" value="2">54213456451ASDF</option>
+									<option class="pat-na" value="3">2356ASDAX12Z35AD</option>
+    							</select>
+							</td>
+						</tr>
+						<tr>
+							<td style="padding	: 15px 0;">■</td>
+							<td>起 始 设 置:</td>
+							<td><input type="datetime-local" class="in-name" name="name"></td>
+						</tr>
+						<tr>
+							<td style="padding	: 15px 0;">■</td>
+							<td>结 束 设 置:</td>
+							<td><input type="datetime-local" class="in-name" name="gender"></td>
+						</tr>
+						<tr>
+							<td style="padding	: 15px 0;">■</td>
+							<td>间 隔 分 钟:</td>
+							<td><input type="text" class="in-name" name="card"></td>
+						</tr>
+						<div class="login-a"><a href="javascript:;" class="file">绑定
+		   					  <input type="submit">
+							</a></div>
+					</table>
+				</form>	
+				
+			</div>
+		</div>	
+	<script type="text/javascript" src="__ROOT__/library/js/jquery-1.10.0.min.js"></script>
+	<!--测量-->
+	<script>
+		function changeOffset(){
+			
+			$('#ui-measure').offset({left:Math.ceil(($(document.body).width()-$('#ui-measure').width())/2),top:$(document).scrollTop()+150});
+			//修改遮罩层的尺寸
+			$('.ui-mask').width($(document).width()).height($(document).height());
+		}
+		$(function(){
+			//初始情况下,隐藏ui-measure
+			$('#ui-measure').hide();
+			$('.measure').click(function(){
+				//显示ui-measure
+				$('#ui-measure').show();
+				$('<div></div>').appendTo(document.body).addClass('ui-mask').width($(document).width()).height($(document).height());					
+				changeOffset();			
+			});
+			$(window).resize(function(){
+				changeOffset();			
+			});
+			//关闭窗口按钮
+			$('.ui-measure-close').click(function(){
+				//隐藏ui-dialog
+				$('#ui-measure').hide();
+				//删除遮罩层
+				$('.ui-mask').remove();
+			})
+			
+		});
+	</script>
+	<!--绑定-->
+	<script>
+		function changeOffset(){
+			
+			$('#ui-dialog').offset({left:Math.ceil(($(document.body).width()-$('#ui-dialog').width())/2),top:$(document).scrollTop()+150});
+			//修改遮罩层的尺寸
+			$('.ui-mask').width($(document).width()).height($(document).height());
+		}
+		$(function(){
+			//初始情况下,隐藏ui-dialog
+			$('#ui-dialog').hide();
+			$('.payment').click(function(){
+				//显示ui-dialog
+				$('#ui-dialog').show();
+				$('<div></div>').appendTo(document.body).addClass('ui-mask').width($(document).width()).height($(document).height());					
+				changeOffset();			
+			});
+			$(window).resize(function(){
+				changeOffset();			
+			});
+			//关闭窗口按钮
+			$('.ui-dialog-close').click(function(){
+				//隐藏ui-dialog
+				$('#ui-dialog').hide();
+				//删除遮罩层
+				$('.ui-mask').remove();
+			})
+			
+		});
+	</script>
+	<!--解绑-->
+	<script>
+		function changeOffset(){
+			
+			$('#ui-jiebang').offset({left:Math.ceil(($(document.body).width()-$('#ui-jiebang').width())/2),top:$(document).scrollTop()+150});
+			//修改遮罩层的尺寸
+			$('.ui-mask').width($(document).width()).height($(document).height());
+		}
+		$(function(){
+			//初始情况下,隐藏ui-dialog
+			$('#ui-jiebang').hide();
+			$('.jiebang').click(function(){
+				//显示ui-dialog
+				$('#ui-jiebang').show();
+				$('<div></div>').appendTo(document.body).addClass('ui-mask').width($(document).width()).height($(document).height());					
+				changeOffset();			
+			});
+			$(window).resize(function(){
+				changeOffset();			
+			});
+			//关闭窗口按钮
+			$('.ui-jiebang-close').click(function(){
+				//隐藏ui-dialog
+				$('#ui-jiebang').hide();
+				//删除遮罩层
+				$('.ui-mask').remove();
+			})
+			
+		});
+	</script>
+	<!--新增-->
+	<script>
+	function changeOffset(){
+		
+		$('#ui-xinzeng').offset({left:Math.ceil(($(document.body).width()-$('#ui-xinzeng').width())/2),top:$(document).scrollTop()+150});
+		//修改遮罩层的尺寸
+		$('.ui-mask').width($(document).width()).height($(document).height());
+	}
+	$(function(){
+		//初始情况下,隐藏ui-dialog
+		$('#ui-xinzeng').hide();
+		$('#xinzeng').click(function(){
+			//显示ui-dialog
+			$('#ui-xinzeng').show();
+			$('<div></div>').appendTo(document.body).addClass('ui-mask').width($(document).width()).height($(document).height());					
+			changeOffset();			
+		});
+		$(window).resize(function(){
+			changeOffset();			
+		});
+		//关闭窗口按钮
+		$('.ui-xinzeng-close').click(function(){
+			//隐藏ui-dialog
+			$('#ui-xinzeng').hide();
+			//删除遮罩层
+			$('.ui-mask').remove();
+		})
+		
+	});
+</script>
+

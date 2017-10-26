@@ -1,0 +1,95 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
+    <title>名医简介</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,li,div{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        body{
+            background-color: #eee;
+            color: #202020;
+        }
+        a{
+            text-decoration: none;
+        }
+        @media screen and (max-width: 767px) {
+            #header{
+                width: 100%;
+                min-height: 175px;;
+                background-color:#0EC889 ;
+                text-align: center;
+            }
+            #header>p:first-child{
+                width:90px;;
+                height: 90px;;
+                margin: 0 auto;
+            }
+            #header>p>img{
+                width: 70px;
+                height: 70px;;
+                margin-top: 15px;;
+                border: 2px solid #0C8058;
+                border-radius:50px;
+            }
+            #header>.doc_name{
+                height: 35px;
+                line-height: 35px;;
+                font-size: 22px;;
+                color: #fff;
+            }
+            #header>.doc_degree{
+                color: #fff;
+            }
+            .introduction{
+                width: 100%;
+                min-height: 120px;;
+                margin-top: 10px;;
+                background-color: #fff;
+                border-top: 1px solid #ddd;
+                border-bottom: 1px solid #ddd;
+            }
+            .introduction>.int_top{
+                height: 40px;
+                line-height: 40px;;
+                border-bottom: 1px solid #ddd;
+            }
+            .int_top>span{
+                width: 50px;;
+                margin-left: 10px;;
+                padding-left: 10px;;
+                color: #0EC889 ;
+                border-left: 3px solid #0EC889 ;
+            }
+            .introduction>.int_bottom{
+                padding-left: 20px;;
+                margin-top: 10px;;
+                font-size: 14px;;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <p><img src="/Health/public/Reception/images/doc.jpg" /></p>
+        <p class="doc_name">陈媛圆</p>
+        <p class="doc_degree">主治医师/糖尿病专科</p>
+        <p class="doc_degree">第三军医大学西南医院</p>
+    </div>
+    <div class="introduction">
+        <p class="int_top"><span>简介</span></p>
+        <p class="int_bottom">医学博士、副主任医师、副教授、现任第三军医西南医院内科副主任。</p>
+    </div>
+    <div class="introduction">
+        <p class="int_top"><span>擅长</span></p>
+        <p class="int_bottom">糖尿病、痛风、骨质疏松、矮小症、垂体瘤等内分泌及代谢病的诊治。</p>
+    </div>
+</body>
+</html>

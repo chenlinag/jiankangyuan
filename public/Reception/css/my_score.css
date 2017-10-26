@@ -1,0 +1,155 @@
+/**{*/
+    /*box-sizing: border-box;*/
+/*}*/
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,li,div{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    background-color: #eee;
+    color: #202020;
+}
+a{
+    text-decoration: none;
+}
+b{
+    font-weight: normal;
+}
+@media screen and (max-width: 767px) {
+    #header{
+        width: 100%;
+        min-height: 100px;
+        text-align: center;
+        padding-top: 15px;
+        background-color: #0191E8;
+    }
+    #head_info{
+        width: 85%;
+        min-height: 70px;
+        margin: 0 auto;
+        background-color: #4AAEEA;
+        border-radius: 5px;
+    }
+    #head_info div{
+        display: inline-block;
+    }
+    #head_info>.info_left{
+        width: 93%;
+        min-height: 60px;
+        text-align: left;
+        padding: 10px 10px;
+    }
+    .info_left>img{
+        width: 50px;
+        height: 50px;
+        border: 2px solid #0191E8;
+        border-radius: 50px;
+    }
+    .info_left>.info_txt{
+        color: #fff;
+        font-size: 12px;
+    }
+    .info_txt>.info_p{
+        font-size: 14px;
+    }
+    .info_left *{
+        vertical-align: middle;
+    }
+    .info_left>.info_score{
+         float: right;
+         color: #fff;
+         font-size: 12px;
+     }
+    .info_score>.info_num{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .score_box{
+        width: 100%;
+        min-height: 272px;
+        margin-top: 15px;
+        background-color: #fff;
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+    }
+    .score_box>#score_details{
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        font-size: 18px;
+    }
+    #score_details>span{
+        padding-left: 10px;
+        padding-right: 5px;
+        border-right: 3px solid #0EC889;
+    }
+    .score_box>.score_month{
+        width: 100%;
+        height: 30px;
+        line-height: 30px;
+        color:#777;
+        font-size: 12px;
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+    }
+    .score_month:after{
+        content: '';
+        display: table;
+        clear: both;
+    }
+    .score_month>.month{
+        margin-left: 10px;
+        padding-left: 5px;
+        border-left: 3px solid #0191E8;
+    }
+    .score_month>.month_right{
+        float: right;
+        margin-right: 10px;
+    }
+    .month_right>.huoQu{
+        margin-right: 15px;
+    }
+    .month_right>.huoQu>b{
+        color: #0191E8;
+    }
+    .month_right>.shiYong>b{
+        color: #E27115;
+    }
+    .score_box>.score_pay{
+        width: 100%;
+        height: 50px;
+    }
+    .score_pay div{
+        display: inline-block;
+    }
+    .score_pay>.pay_left{
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    .score_pay>.pay_right{
+        line-height: 50px;
+        margin-right: 10px;
+        float: right;
+        color: #0191E8;
+    }
+    /*.pay_left>.left_p1{*/
+        /*font-size: 18px;*/
+    /*}*/
+    .score_pay>.pay{
+        float: right;
+    }
+    .pay_left>.left_time{
+        font-size: 12px;
+        color: #777;
+    }
+    .score_box2{
+        min-height: 232px;
+    }
+    .score_box2>.score_month2{
+        border-top: none;
+    }
+    .score_pay>.pay_right2{
+        color: #E27115;
+    }
+}

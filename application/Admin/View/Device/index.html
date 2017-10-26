@@ -1,0 +1,222 @@
+<div style="font-size:20px;margin:1% 1%;border-bottom: 1px solid #ddd;padding:0 0 10px 0">设备详情</div>
+
+<div id="dev-huan" style="margin-left:4%;">
+		<form action="__APP__/Device/index" method="post">	
+			<table style="width:60%;">
+				<tr>
+					<td style="font-size:16px;">设备编号：</td>
+					<td><input type="text" style="font-size:16px;" name="text" placeholder="请输入设备编号.."></td>
+					<td><a href="javascript:;" class="file">查询<input type="submit"></a></td>
+					<td><a href="javascript:;" class="hsanghai file" >添加设备</a></td>
+				</tr>
+			</table>
+		</form>
+</div>
+
+
+	<!--添加设备-->
+	<div id="ui-hsanghai">
+			<div id="ui-hsanghai-title"></div>
+			<div class="ui-hsanghai-close"></div>
+			<div id="ui-shuru">
+				<!-- <form action="__APP__/Device/style" method="post"> -->
+					<p>设备编码：<input type="text" id="number" name="number" placeholder="输入设备编号.."></p>
+					<p>设备类型：
+						<select name="appa" id="appa">
+							<option class="pat-na">血压计</option>
+							<option class="pat-na">计血压</option>
+		    			</select>
+					</p>
+						<a href="javascript:;" class="file">添加
+	   					  <input type="submit" id="numapp">
+						</a>
+				<!-- </form> -->
+			</div>
+	</div>
+
+
+
+	<div id="dev-div">
+		<table cellspacing="0">
+			<tr id="dev-tr">
+			<!-- 	<td>患 者 姓 名</td> -->
+				<td>设 备 编 号</td>
+				<td>设 备 类 型</td>
+				<td>查 看 数 据</td>
+				<td style="width:51%;">解 除 绑 定</td>
+			</tr>
+			<volist name="content" id="v">
+				<tr>
+					<!-- <td>安保处</td> -->
+					<td>{$v['number']}</td>
+					<td>{$v['appa']}</td>
+					<td><a href="javascript:;" class="details" ><img class="pat-img" src="__ROOT__/public/images/hzgl/xiangqing.png"/></a></td>
+					<td style="width:51%;"><a onclick="Info({$v['id']});"><img class="pat-img" src="__ROOT__/public/images/hzgl/jiebang.png"/></a></td>
+				</tr>
+			</volist>
+		</table>
+		
+	</div>
+	
+	<!--详情-->
+	<div id="ui-details">
+			<div id="ui-details-title">
+			<table>
+				<tr id="ui-details-tr">
+					<td>姓名</td>
+					<td>收压缩</td>
+					<td>舒张压</td>
+					<td>心率</td>
+					<td>测试时间</td>
+				</tr>
+				<tr class="ui-details-tr">
+					<td>暗室逢灯</td>
+					<td>124</td>
+					<td>80</td>
+					<td>59</td>
+					<td>2017-10-25</td>
+				</tr>
+				<tr class="ui-details-tr">
+					<td>暗室逢灯</td>
+					<td>124</td>
+					<td>80</td>
+					<td>59</td>
+					<td>2017-10-25</td>
+				</tr>
+				<tr class="ui-details-tr">
+					<td>暗室逢灯</td>
+					<td>124</td>
+					<td>80</td>
+					<td>59</td>
+					<td>2017-10-25</td>
+				</tr>
+			</table>
+			</div>
+			
+			<div class="ui-details-close"></div>
+	</div>
+	
+
+<!--详情-->
+	<script>
+
+
+
+		function changeOffset(){
+			
+			$('#ui-details').offset({left:Math.ceil(($(document.body).width()-$('#ui-details').width())/2),top:$(document).scrollTop()+150});
+			//修改遮罩层的尺寸
+			$('.ui-mask').width($(document).width()).height($(document).height());
+		}
+		$(function(){
+			//初始情况下,隐藏ui-dialog
+			$('#ui-details').hide();
+			$('.details').click(function(){
+				//显示ui-dialog
+				$('#ui-details').show();
+				$('<div></div>').appendTo(document.body).addClass('ui-mask').width($(document).width()).height($(document).height());					
+				changeOffset();			
+			});
+			$(window).resize(function(){
+				changeOffset();			
+			});
+			//关闭窗口按钮
+			$('.ui-details-close').click(function(){
+				//隐藏ui-dialog
+				$('#ui-details').hide();
+				//删除遮罩层
+				$('.ui-mask').remove();
+			})
+			
+		});
+	</script>
+	<!--添加设备-->
+	<script>
+		function changeOffset(){
+			
+			$('#ui-hsanghai').offset({left:Math.ceil(($(document.body).width()-$('#ui-hsanghai').width())/2),top:$(document).scrollTop()+150});
+			//修改遮罩层的尺寸
+			$('.ui-mask').width($(document).width()).height($(document).height());
+		}
+		$(function(){
+			//初始情况下,隐藏ui-dialog
+			$('#ui-hsanghai').hide();
+			$('.hsanghai').click(function(){
+				//显示ui-dialog
+				$('#ui-hsanghai').show();
+				$('<div></div>').appendTo(document.body).addClass('ui-mask').width($(document).width()).height($(document).height());					
+				changeOffset();			
+			});
+			$(window).resize(function(){
+				changeOffset();			
+			});
+			//关闭窗口按钮
+			$('.ui-hsanghai-close').click(function(){
+				//隐藏ui-dialog
+				$('#ui-hsanghai').hide();
+				//删除遮罩层
+				$('.ui-mask').remove();
+			})
+			
+		});
+
+
+		$("#numapp").click(function() { 
+		var number=$('#number').val();
+		var appa=$('#appa').val();
+
+		if(number == ""){
+			alert('设备编号不能为空！');
+			return false;
+		}
+		if(appa == ""){
+			alert('类型错误！');
+			return false;
+		}
+		$.ajax({
+			url:'__APP__/Device/style',
+			type:'post',
+			dataType:'json',
+			data:{
+				number:number,
+				appa:appa	
+			},
+			success:function(data){
+
+				if(data.code==1){
+					layer.msg(data.msg, {shift: -1},function(){
+						window.setTimeout("window.location.href='__APP__/Device/index'",2000);
+					});
+				}else{
+					layer.msg(data.msg);
+				}
+			}
+		});
+})
+	</script>
+	<script>
+		function Info(id){
+			  // window.location.href = "__APP__/Consu/nhcid/"+id; 
+			 var msg = "您真的确定要解绑吗？";
+			if (confirm(msg)==true){
+					 	$.ajax({
+							url:"__APP__/Device/Updata/id/"+id,
+							type:'post',
+							dataType:'json',
+							
+							success:function(data){
+
+								if(data.code==1){
+									layer.msg(data.msg, {shift: -1},function(){
+										window.setTimeout("window.location.href='__APP__/Device/index'",2000);
+									});
+								}else{
+									layer.msg(data.msg);
+								}
+							}
+						});
+					}else{
+				return false;
+			}
+		}
+	</script>

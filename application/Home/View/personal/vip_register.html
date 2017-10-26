@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
+    <title>会员注册</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,li,div{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        body{
+            background-color: #eee;
+            color: #202020;
+        }
+        a{
+            text-decoration: none;
+        }
+        @media screen and (max-width: 767px) {
+            #main{
+                width: 85%;
+                min-height: 240px;;
+                margin:40px auto;
+            }
+            .main_input{
+                margin-top: 20px;;
+            }
+            input{
+                width: 100%;
+                min-height: 40px;;
+                line-height: 40px;
+                font-size: 16px;;
+                padding-left: 10px;;
+                border:1px solid #838383;
+                border-radius: 5px;;
+                background-color: #eee;
+            }
+            .yanZhengMa>input{
+                width: 60%;
+            }
+            .yanZhengMa>p{
+                margin-left: 2%;
+                width: 36%;
+                min-height:40px ;
+                line-height: 40px;;
+                display: inline-block;
+                text-align: center;
+                border-radius: 5px;;
+                color: #fff;
+                background-color: #0191E8;
+            }
+            #agree{
+                width: 100%;
+                height: 40px;;
+                line-height: 40px;;
+            }
+            #agree>a{
+                display: block;
+                height: 40px;;
+                text-align: center;
+            }
+            #agree>a *{
+                vertical-align: middle;
+            }
+            #agree>a>img{
+                width: 20px;;
+                height: 20px;
+                margin-right: 5px;;
+            }
+            #agree>a>span{
+                color: red;
+            }
+            #register{
+                width: 100%;
+                min-height: 50px;
+                line-height: 50px;;
+                /*border-radius: 5px;;*/
+                margin: 0 auto;
+                color: #fff;
+                font-size: 20px;;
+                text-align: center;
+                background-color: #0191E8;
+            }
+            #bottom{
+                width: 100%;
+                height: 90px;
+                position: fixed;
+                bottom: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+<form>
+    <div id="main">
+        <div class="main_input">
+            <input type="text" placeholder="请输入手机号"/>
+        </div>
+        <div class="main_input yanZhengMa">
+            <input type="text" placeholder="请输入短信验证码"/>
+            <p>发送验证码</p>
+        </div>
+        <div class="main_input">
+            <input type="text" placeholder="请输入密码"/>
+        </div>
+        <div class="main_input">
+            <input type="text" placeholder="请确认密码"/>
+        </div>
+    </div>
+</form>
+<div id="bottom">
+    <div id="agree">
+        <a href="">
+            <img src="__ROOT__/public/Reception/images/per/gou.png" />
+            <span>同意绑定微信</span>
+        </a>
+    </div>
+    <div id="register">注册</div>
+</div>
+
+</body>
+</html>

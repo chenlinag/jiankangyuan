@@ -1,0 +1,279 @@
+.clearfix:after{
+	centent:"";//设置内容为空
+	height:0;//高度为0
+	line-height:0;//行高为0
+	display:block;//将文本转为块级元素
+	visibility:hidden;//将元素隐藏
+	clear:both//清除浮动
+}
+.clearfix{
+	zoom:1;为了兼容IE
+}
+/*患者管理*/
+.color{	
+	width:6%;
+	height:6%;
+	text-align: center;
+	line-height: 33px;
+	border-radius: 7px;
+	background:#0ec889;
+	float:left;
+	margin:1% 0 0 1%;
+}
+/*患者管理 超链接*/
+.color a{
+	color:#fff;
+}
+/*显示人数*/
+.ren{	
+	margin-top:1%;
+	margin-bottom:2%;
+}
+.ren span{
+	color:#0ec889;
+	font-size:21px;
+	margin-left:1%;
+}
+.tows{
+	margin-left:2%;
+	margin-bottom: 2%;
+}
+.tows form table td{
+font-size:16px;
+}
+.td{
+	margin-left:10%;
+	font-size:20px;
+	padding:0 22px 0 0;
+}
+ /*搜索按钮*/
+.file {
+    position: relative;
+    display: inline-block;
+    background: #0ec889;
+    border-radius: 4px;
+    padding: 7px 20px;
+    overflow: hidden;
+    color: #fff;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 20px;
+}
+.file input {
+	
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+#inde-read{
+	width:340px;
+	height:200px;
+	font-size:20px;
+}
+/*.file:hover {
+    background: #AADFFD;
+    border-color: #78C3F3;
+    color: #fff;
+    text-decoration: none;
+}	*/
+/*血压*/
+/*.admin_now .ottffs{
+	width: 100%;
+	
+	margin-bottom:2%;
+}*/
+.unified{
+	width:6%;
+	height:4%;
+	text-align: center;
+	line-height: 200%;
+	border-radius: 7px;
+	padding:10px 15px;
+	/*float:left;*/
+	margin:1% 1% 0 3%;
+}
+.one{
+	background:#4aa0f3;
+}
+.two{
+	background:#6a6a6a;
+}
+.three{
+	background:#ea6a47;
+}
+.four{
+	background:#4fe65b;
+}
+.five{
+	background:#4976a0;
+}
+.six{
+	background:#ea5656;
+}
+/*树状图*/
+.diagram{
+	/*background:#ff9;*/
+	margin:1% auto;
+	border-bottom: 2px solid #34495E;
+}
+ #column2d_6870703786196{
+    border: 1px solid #ADACB0;
+    /*display: block;*/
+    /*margin: 20px auto;*/
+}
+/*统一表修饰*/
+/*患者总览表  头修饰*/
+.tow-tr td{
+	font-size: 24px;
+	width:12%;
+	height:44px;
+	background:#34495E;
+	text-align: center;
+	color:#fff;
+	
+}
+/*患者管理*/
+.patien-tr td{
+	font-size: 23px;
+	width: 9%;
+	height: 44px;
+	background: #34495E;
+	text-align: center;
+	color:#fff;
+}
+.one-tr{
+	text-align: center;
+	color:#888;
+	font-size:20px;
+}
+.one-tr td{
+	padding:5px 0;
+	border:1px solid #ddd;
+}
+.tabke-table table{
+	width:80%;
+	text-align: center;
+	border-collapse:collapse;
+	margin:0 0 0 1%;
+}
+
+	/*预警*/
+	#ui-early{
+		position:relative;
+		position:fixed;
+		left: 40%;
+    	top: 20%;	
+		z-index:9998;	
+		width:410px;
+		height:380px;
+		background:#fff;						
+		border-radius:15px;
+	}
+	#ui-early-title{
+		padding: 0 10px;
+		height: 48px;
+		line-height: 50px;
+		background: #f3f3f3;
+		font-size: 17px;
+		color: #666;
+		font-family: "Microsoft YaHei";
+		border-radius: 15px 15px 0 0;
+		border-bottom: 1px solid #ccc;
+	}
+	.ui-early-close {
+	    cursor: pointer;
+		display: block;
+		position: absolute;
+		z-index: 100000;
+		top: 12px;
+		right: 12px;
+		overflow: hidden;
+		width: 28px;
+		height: 28px;
+		background: url("../images/cuo.png") no-repeat;
+	}
+.login-textarea{
+	padding:8%; 	
+}	
+.login-textarea textarea{
+	width:100%;
+	height:200px;
+	margin-left:1%;
+	margin:0 auto;
+}
+.earlyss{
+ 	position: relative;
+	display: inline-block;
+	background: #0ec889;
+	border-radius: 4px;
+	padding: 7px 54px;
+	overflow: hidden;
+	margin: 12% 0 0 30%;
+	color: #fff;
+	text-decoration: none;
+	text-indent: 0;
+	line-height: 20px;
+}
+.earlyss input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+/*血压 血糖*/
+.blood ul{
+	width:98%;
+	height:50px;
+	margin: 2% 1%;
+	border-bottom: 2px solid #DF5000;
+}
+.blood ul a{
+	display: block;
+	width:9%;
+	height:50px;
+	font-size:16px;
+	color:#000;
+	float:left;
+	list-style-type:none;
+	/*border-bottom:2px solid #384e61;*/
+}
+.blood ul li p{
+	margin:0 0 0 35%;
+	line-height:310%;
+}
+
+/*功能*/
+#admin_tab{
+	font-size:14px;
+}
+
+#admin_tit h3{
+	
+	line-height:30px;
+	text-align:center;
+	float:left;
+	cursor:pointer;
+	/*background-color:#f00;*/
+	color:#333;
+	margin: 0;
+	padding:0.5% 2%;
+}
+
+#asdasd div{
+	display:none;
+}
+#asdasd .admin_now{
+	display:block;
+}
+#admin_tit{
+margin:1% 0 2% 1%;
+border-bottom: 2px solid #e34e42;
+}
+#admin_tit .admin_tit_now{
+	color:#fff;
+	background-color:#e34e42;
+	
+}

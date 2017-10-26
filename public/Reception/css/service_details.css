@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+}
+body,h1,h2,h3,h4,h5,h6,p,div{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #eee;
+    color: #202020;
+}
+a{
+    text-decoration: none;
+}
+@media screen and (max-width: 767px) {
+    .container{
+        width: 100%;
+        min-height: 240px;
+    }
+    .container>.bar{
+        width: 100%;
+        height: 35px;
+        line-height: 35px;
+        margin-top: 10px;
+        background: url('../images/service/juxing.png') ;
+        background-size: 100% 100%;
+    }
+    .bar>ul{
+        padding-left: 30px;
+        margin: 0;
+        list-style-type: square;
+        color: #fff;
+    }
+    .container>.service_box{
+        width: 100%;
+        min-height: 100px;
+    }
+    .service_box div{
+        display: inline-block;
+    }
+    .service_box>.file_man{
+        width: 32.3%;
+        min-height: 100px;
+        text-align: center;
+        padding: 12px 0;
+        /*border: 1px solid #000;*/
+    }
+    .file_man>.pic{
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        box-shadow: 2px 2px 4px #A1A1A1;
+        margin: auto;
+        background-color: #fff;
+        /*border: 1px solid #000;*/
+    }
+    .file_man>.pic>img{
+        width: 50px;
+        height: 50px;
+    }
+    .file_man>.txt{
+        height: 30px;
+        line-height: 30px;
+        font-size: 12px;
+    }
+    .container>.liuCheng{
+        width: 100%;
+        height: 150px;
+        padding: 5%;
+    }
+    .liuCheng>img{
+        width: 100%;
+        height: 100%;
+    }
+    .container2{
+        min-height: 190px;
+    }
+    .container3{
+        min-height: 290px;
+    }
+    .container3>.shuoMing{
+        padding: 0 3%;
+        min-height:250px ;
+    }
+    .container3>.shuoMing p{
+        font-size: 12px;
+        min-height: 50px;
+        line-height: 19px;
+        margin-top: 5px;
+    }
+    #footer{
+        width: 100%;
+        height: 45px;
+        line-height: 45px;
+    }
+    #footer div{
+        display: inline-block;
+    }
+    #footer>.left{
+        width: 70%;
+        height: 45px;
+        line-height: 45px;
+    }
+    .left>p{
+        padding-left: 3%;
+    }
+    .left>p span{
+        color: red;
+    }
+    .left>p span:nth-child(2){
+        font-size: 25px;
+        margin-right: 5px;
+    }
+    .left>p>s{
+        font-size: 12px;
+        color: #777;
+    }
+    #footer>.right{
+        width: 28%;
+        height: 45px;
+        line-height: 45px;
+        background-color: #0191E8;
+    }
+    .right>a{
+        text-align: center;
+        display: block;
+        color: #fff;
+        font-size: 14px;
+    }
+}
