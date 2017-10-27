@@ -95,7 +95,7 @@
 <div class="content">
     <div class="con_sh">
         <div class="con_left">
-            <img src="/Health/public/Reception/images/doc.jpg" />
+            <img src="/public/Reception/images/doc.jpg" />
         </div>
         <div class="con_right">
             <p class="right_p1">高血压<span>服务包</span></p>
@@ -103,16 +103,16 @@
         </div>
     </div>
     <div class="con_xia">
-        <a href="/Health/index.php/Index/xiangqing">
+        <a href="/index.php/Index/xiangqing">
             <span>详细介绍</span>
-            <img src="/Health/public/Reception/images/gengduo2.png" />
+            <img src="/public/Reception/images/gengduo2.png" />
         </a>
     </div>
 </div>
 <div class="content">
     <div class="con_sh">
         <div class="con_left">
-            <img src="/Health/public/Reception/images/doc.jpg" />
+            <img src="/public/Reception/images/doc.jpg" />
         </div>
         <div class="con_right">
             <p class="right_p1">陈媛<span>主治医生</span></p>
@@ -122,14 +122,14 @@
     <div class="con_xia">
         <a href="#">
             <span>详细介绍</span>
-            <img src="/Health/public/Reception/images/gengduo2.png" />
+            <img src="/public/Reception/images/gengduo2.png" />
         </a>
     </div>
 </div>
 <div class="content">
     <div class="con_sh">
         <div class="con_left">
-            <img src="/Health/public/Reception/images/doc.jpg" />
+            <img src="/public/Reception/images/doc.jpg" />
         </div>
         <div class="con_right">
             <p class="right_p1">陈媛<span>主治医生</span></p>
@@ -139,14 +139,14 @@
     <div class="con_xia">
         <a href="#">
             <span>详细介绍</span>
-            <img src="/Health/public/Reception/images/gengduo2.png" />
+            <img src="/public/Reception/images/gengduo2.png" />
         </a>
     </div>
 </div>
 <div class="content">
     <div class="con_sh">
         <div class="con_left">
-            <img src="/Health/public/Reception/images/doc.jpg" />
+            <img src="/public/Reception/images/doc.jpg" />
         </div>
         <div class="con_right">
             <p class="right_p1">陈媛<span>主治医生</span></p>
@@ -156,7 +156,7 @@
     <div class="con_xia">
         <a href="#">
             <span>详细介绍</span>
-            <img src="/Health/public/Reception/images/gengduo2.png" />
+            <img src="/public/Reception/images/gengduo2.png" />
         </a>
     </div>
 </div>

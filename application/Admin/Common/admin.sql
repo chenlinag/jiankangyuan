@@ -48,42 +48,42 @@ CREATE TABLE `equipment`(
 PRIMARY KEY (`id`)
 )ENGINE=InnoDB DEFAULT CHARSET=utf8;
 #病种表
-CREATE TABLE `Disease_list`(
-    `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT '主键id',
-    `cid` int(11) UNSIGNED NOT NULL  COMMENT '关联id',
-    `disease` varchar(255) NOT NULL COMMENT '病种名',
-    PRIMARY KEY (`id`)
-  )ENGINE=InnoDB DEFAULT CHARSET=utf8;
+-- CREATE TABLE `Disease_list`(
+--     `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT '主键id',
+--     `cid` int(11) UNSIGNED NOT NULL  COMMENT '关联id',
+--     `disease` varchar(255) NOT NULL COMMENT '病种名',
+--     PRIMARY KEY (`id`)
+--   )ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
-# 顾问表++++
-CREATE TABLE `Doctor_patient`(
-  `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT '主键id',
-  `cid` int(11) UNSIGNED NOT NULL  COMMENT '关联医生表主键id',
-  `head_portrait` varchar(255) NOT NULL COMMENT '头像路径',
-  `cname` varchar(25) NOT NULL COMMENT '顾问姓名',
-  `phone` varchar(25) NOT NULL COMMENT '电话',
-  `Gender` varchar(25) NOT NULL COMMENT '性别',
-  `group` varchar(25) NOT NULL COMMENT '组别',
-  `profile` varchar(255) NOT NULL COMMENT '个人简介',
-  PRIMARY KEY (`id`)
-)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+-- # 顾问表++++
+-- CREATE TABLE `Doctor_patient`(
+--   `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT '主键id',
+--   `cid` int(11) UNSIGNED NOT NULL  COMMENT '关联医生表主键id',
+--   `head_portrait` varchar(255) NOT NULL COMMENT '头像路径',
+--   `cname` varchar(25) NOT NULL COMMENT '顾问姓名',
+--   `phone` varchar(25) NOT NULL COMMENT '电话',
+--   `Gender` varchar(25) NOT NULL COMMENT '性别',
+--   `group` varchar(25) NOT NULL COMMENT '组别',
+--   `profile` varchar(255) NOT NULL COMMENT '个人简介',
+--   PRIMARY KEY (`id`)
+-- )ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 #患者详细信息表++++
-CREATE TABLE `Patient_basic`(
-  `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT '主键id',
-  `cid` int(11) UNSIGNED NOT NULL  COMMENT '关联患者表id',
-  `name` varchar(25) NOT NULL COMMENT '姓名',
-  `height` tinyint(1) UNSIGNED NOT NULL COMMENT '身高', 
-  `Gender` varchar(25) NOT NULL COMMENT '性别',
-  `idnumber` varchar(255) NOT NULL COMMENT '身份证',
-  `weight` tinyint(1) UNSIGNED NOT NULL COMMENT '体重',
-  `Age` tinyint(1) UNSIGNED NOT NULL COMMENT '年龄',
-  `vocation` varchar(255) NOT NULL COMMENT '职业',
-  `Nation` varchar(25) NOT NULL COMMENT '民族',
-  `Marital` varchar(25) NOT NULL COMMENT '婚姻状况',
-  PRIMARY KEY (`id`)
-  )ENGINE=InnoDB DEFAULT CHARSET=utf8;
+-- CREATE TABLE `Patient_basic`(
+--   `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT '主键id',
+--   `cid` int(11) UNSIGNED NOT NULL  COMMENT '关联患者表id',
+--   `name` varchar(25) NOT NULL COMMENT '姓名',
+--   `height` tinyint(1) UNSIGNED NOT NULL COMMENT '身高', 
+--   `Gender` varchar(25) NOT NULL COMMENT '性别',
+--   `idnumber` varchar(255) NOT NULL COMMENT '身份证',
+--   `weight` tinyint(1) UNSIGNED NOT NULL COMMENT '体重',
+--   `Age` tinyint(1) UNSIGNED NOT NULL COMMENT '年龄',
+--   `vocation` varchar(255) NOT NULL COMMENT '职业',
+--   `Nation` varchar(25) NOT NULL COMMENT '民族',
+--   `Marital` varchar(25) NOT NULL COMMENT '婚姻状况',
+--   PRIMARY KEY (`id`)
+--   )ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
 

@@ -379,8 +379,8 @@
 </div>
 
 
-<script type="text/javascript" src="/Health/public/Reception/js/jquery-1.8.3.min.js"></script>
-<script type="text/javascript" src="/Health/public/Reception/js/highcharts.js"></script>
+<script type="text/javascript" src="/public/Reception/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/public/Reception/js/highcharts.js"></script>
 <script>
     $(function () {
         $('#container').highcharts({

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
     <title>健康服务</title>
-    <link rel="stylesheet" href="/Health/public/Reception/css/index.css"/>
+    <link rel="stylesheet" href="/public/Reception/css/index.css"/>
 </head>
 <body>
    
@@ -16,8 +16,8 @@
             <div class="rt-container slider-container">
                 <div class="rt-grid-12 rt-alpha rt-omega">
                     
-                    <link rel="stylesheet" href="/Health/public/css/css/style.css">
-                    <!--[if IE]><link rel="stylesheet" href="/Health/public/css/css/ie.css"><![endif]-->
+                    <link rel="stylesheet" href="/public/css/css/style.css">
+                    <!--[if IE]><link rel="stylesheet" href="/public/css/css/ie.css"><![endif]-->
                     <!--[if lte IE 9]><script type="text/javascript" src="js/ie.js"></script><![endif]-->
     
                     <div class="csslider1 autoplay">
@@ -28,16 +28,16 @@
                         <input name="cs_anchor1" autocomplete="off" id="cs_pause1" type="radio" class="cs_anchor" >
                         <ul>
                             <div style="width: 100%; height:150px; visibility: hidden; font-size: 0px; line-height: 0;">
-                                <img src="/Health/public/css/images/1.jpg" style="width: 100%;">
+                                <img src="/public/css/images/1.jpg" style="width: 100%;">
                             </div>
                             <li class="num0 img">
-                                <img src="/Health/public/css/images/1.jpg" alt="Clouds" title="Clouds" />
+                                <img src="/public/css/images/1.jpg" alt="Clouds" title="Clouds" />
                             </li>
                             <li class="num1 img">
-                                <img src="/Health/public/css/images/2.jpg" alt="Typewriter" title="Typewriter" />
+                                <img src="/public/css/images/2.jpg" alt="Typewriter" title="Typewriter" />
                             </li>
                             <li class="num2 img">
-                                <img src="/Health/public/css/images/3.jpg" alt="Bicycle" title="Bicycle" />
+                                <img src="/public/css/images/3.jpg" alt="Bicycle" title="Bicycle" />
                             </li>
                         
                         </ul>
@@ -70,15 +70,15 @@
                         <div class="cs_bullets">
                             <label class="num0" for="cs_slide1_0">
                                 <span class="cs_point"></span>
-                                <span class="cs_thumb"><img src="/Health/public/css/images/small/4.jpg" alt="Clouds" title="Clouds" /></span>
+                                <span class="cs_thumb"><img src="/public/css/images/small/4.jpg" alt="Clouds" title="Clouds" /></span>
                             </label>
                             <label class="num1" for="cs_slide1_1">
                                 <span class="cs_point"></span>
-                                <span class="cs_thumb"><img src="/Health/public/css/images/small/2.jpg" alt="Typewriter" title="Typewriter" /></span>
+                                <span class="cs_thumb"><img src="/public/css/images/small/2.jpg" alt="Typewriter" title="Typewriter" /></span>
                             </label>
                             <label class="num2" for="cs_slide1_2">
                                 <span class="cs_point"></span>
-                                <span class="cs_thumb"><img src="/Health/public/css/images/small/3.jpg" alt="Bicycle" title="Bicycle" /></span>
+                                <span class="cs_thumb"><img src="/public/css/images/small/3.jpg" alt="Bicycle" title="Bicycle" /></span>
                             </label>
                         </div>
                         
@@ -100,9 +100,9 @@
         <div id="service">
             <div class="service_left">服务包</div>
             <div class="service_right">
-                <a href="/Health/index.php/Index/lists">
+                <a href="/index.php/Index/lists">
                     查看更多
-                    <img src="/Health/public/Reception/images/zhuye-jieshao.png" />
+                    <img src="/public/Reception/images/zhuye-jieshao.png" />
                 </a>
             </div>
         </div>
@@ -110,7 +110,7 @@
             <div class="hypertension">
                 <div class="hy_sh">
                     <div class="hy_left">
-                        <img src="/Health/public/Reception/images/content1.jpg"/>
+                        <img src="/public/Reception/images/content1.jpg"/>
                     </div>
                     <div class="hy_right">
                         <p class="right_p1">高血压<span>服务包</span></p>
@@ -118,16 +118,16 @@
                     </div>
                 </div>
                 <div class="hy_xia">
-                    <a href="/Health/index.php/Index/xiangqing">
+                    <a href="/index.php/Index/xiangqing">
                         详细介绍
-                        <img src="/Health/public/Reception/images/zhuye-jieshao.png" />
+                        <img src="/public/Reception/images/zhuye-jieshao.png" />
                     </a>
                 </div>
             </div>
             <div class="hypertension diabetes">
                 <div class="hy_sh">
                     <div class="hy_left">
-                         <img src="/Health/public/Reception/images/content1.jpg" />
+                         <img src="/public/Reception/images/content1.jpg" />
                     </div>
                     <div class="hy_right">
                         <p class="right_p1">糖尿病<span>服务包</span></p>
@@ -135,9 +135,9 @@
                     </div>
                 </div>
                 <div class="hy_xia">
-                    <a href="/Health/index.php/Index/xiangqing">
+                    <a href="/index.php/Index/xiangqing">
                         详细介绍
-                        <img src="/Health/public/Reception/images/zhuye-jieshao.png" />
+                        <img src="/public/Reception/images/zhuye-jieshao.png" />
                     </a>
                 </div>
             </div>
@@ -148,33 +148,33 @@
             </div>
             <div class="test_middle">
 
-                <a style="display:inline-block; width:23%;height: 80px;" href="/Health/index.php/Index/healthy_file">
+                <a style="display:inline-block; width:23%;height: 80px;" href="/index.php/Index/healthy_file">
                 <div class="middle">
                     <p>
-                        <img src="/Health/public/Reception/images/xueya1.png" />
+                        <img src="/public/Reception/images/xueya1.png" />
                     </p>
                     <span>血压</span>
                 </div>
                  </a>
-                <a style="display:inline-block; width:23%;height: 80px;" href="/Health/index.php/Index/healthy_file">
+                <a style="display:inline-block; width:23%;height: 80px;" href="/index.php/Index/healthy_file">
                 <div class="middle">
                     <p>
-                        <img src="/Health/public/Reception/images/xuetang2.png" />
+                        <img src="/public/Reception/images/xuetang2.png" />
                     </p>
                     <span>血糖</span>
                 </div>
-                <a style="display:inline-block; width:23%;height: 80px;" href="/Health/index.php/Index/healthy_file">
+                <a style="display:inline-block; width:23%;height: 80px;" href="/index.php/Index/healthy_file">
                     <div class="middle">
                         <p>
-                            <img src="/Health/public/Reception/images/xueya1.png" />
+                            <img src="/public/Reception/images/xueya1.png" />
                         </p>
                         <span>心率</span>
                     </div>
                 </a>
-                <a style="display:inline-block; width:23%;height: 80px;" href="/Health/index.php/Index/healthy_file">
+                <a style="display:inline-block; width:23%;height: 80px;" href="/index.php/Index/healthy_file">
                 <div class="middle">
                     <p>
-                        <img src="/Health/public/Reception/images/yongyao.png" />
+                        <img src="/public/Reception/images/yongyao.png" />
                     </p>
                     <span>血脂</span>
                 </div>
@@ -184,33 +184,33 @@
           
          <div class="test_middle">
 
-                <a style="display:inline-block; width:23%;height: 80px;" href="/Health/index.php/Index/healthy_file">
+                <a style="display:inline-block; width:23%;height: 80px;" href="/index.php/Index/healthy_file">
                 <div class="middle">
                     <p>
-                       <img src="/Health/public/Reception/images/xueya1.png" />
+                       <img src="/public/Reception/images/xueya1.png" />
                     </p>
                     <span>体重</span>
                 </div>
                  </a>
-                <a style="display:inline-block; width:23%;height: 80px;" href="/Health/index.php/Index/healthy_file">
+                <a style="display:inline-block; width:23%;height: 80px;" href="/index.php/Index/healthy_file">
                 <div class="middle">
                     <p>
-                        <img src="/Health/public/Reception/images/xuetang2.png" />
+                        <img src="/public/Reception/images/xuetang2.png" />
                     </p>
                     <span>身高</span>
                 </div>
-                <a style="display:inline-block; width:23%;height: 80px;" href="/Health/index.php/Index/healthy_file">
+                <a style="display:inline-block; width:23%;height: 80px;" href="/index.php/Index/healthy_file">
                     <div class="middle">
                         <p>
-                        <img src="/Health/public/Reception/images/xueya1.png" />
+                        <img src="/public/Reception/images/xueya1.png" />
                     </p>
                     <span>心情</span>
                     </div>
                 </a>
-                <a style="display:inline-block; width:23%;height: 80px;" href="/Health/index.php/Index/healthy_file">
+                <a style="display:inline-block; width:23%;height: 80px;" href="/index.php/Index/healthy_file">
                 <div class="middle">
                     <p>
-                        <img src="/Health/public/Reception/images/yongyao.png" />
+                        <img src="/public/Reception/images/yongyao.png" />
                     </p>
                     <span>用药</span>
                 </div>
@@ -220,38 +220,38 @@
         <div id="file">
             <div class="manage">
                 <p class="manage_pic">
-                    <img src="/Health/public/Reception/images/danganguanli.png" />
+                    <img src="/public/Reception/images/danganguanli.png" />
                     <span>档案管理</span>
                 </p>
                 <p class="manage_txt">
-                    <a href="/Health/index.php/Index/healthy">
+                    <a href="/index.php/Index/healthy">
                         <span>更多</span>
-                        <img src="/Health/public/Reception/images/gengduo.png" />
+                        <img src="/public/Reception/images/gengduo.png" />
                     </a>
                 </p>
             </div>
             <div class="manage">
                 <p class="manage_pic">
-                    <img src="/Health/public/Reception/images/shangchuanshuju.png" />
+                    <img src="/public/Reception/images/shangchuanshuju.png" />
                     <span>上传数据</span>
                 </p>
                 <p class="manage_txt">
-                    <a href="/Health/index.php/Index/Updata">
+                    <a href="/index.php/Index/Updata">
                         <span>更多</span>
-                        <img src="/Health/public/Reception/images/gengduo.png" />
+                        <img src="/public/Reception/images/gengduo.png" />
                     </a>
                 </p>
             </div>
         </div>
         <div id="task">
             <div class="task_top">
-                <img src="/Health/public/Reception/images/jinrirenqu.png" />
+                <img src="/public/Reception/images/jinrirenqu.png" />
                 <span>今日任务</span>
             </div>
           
-            <marquee class="task_bottom">
+            <div class="task_bottom">
             
-                <div class="heart">
+              <!--   <div class="heart">
                     <a>
                         <ul class="box_txt">
                             <li class="ul_li ul_li1">测心率</li>
@@ -260,9 +260,33 @@
                         </ul>
                         <p class="unfinish">未完成</p>
                     </a>
-                </div>
+                </div> -->
             
                 <div class="heart blood">
+                    <ul class="box_txt">
+                        <li class="ul_li ul_li1">测血压</li>
+                        <li class="ul_li ul_li2">07:20</li>
+                        <li class="ul_li3">已记录</li>
+                    </ul>
+                    <p class="unfinish finish">已完成</p>
+                </div>
+                  <div class="heart blood">
+                    <ul class="box_txt">
+                        <li class="ul_li ul_li1">测血压</li>
+                        <li class="ul_li ul_li2">07:20</li>
+                        <li class="ul_li3">已记录</li>
+                    </ul>
+                    <p class="unfinish finish">已完成</p>
+                </div>
+                  <div class="heart blood">
+                    <ul class="box_txt">
+                        <li class="ul_li ul_li1">测血压</li>
+                        <li class="ul_li ul_li2">07:20</li>
+                        <li class="ul_li3">已记录</li>
+                    </ul>
+                    <p class="unfinish finish">已完成</p>
+                </div>
+                  <div class="heart blood">
                     <ul class="box_txt">
                         <li class="ul_li ul_li1">测血压</li>
                         <li class="ul_li ul_li2">07:20</li>
@@ -278,45 +302,61 @@
                     </ul>
                     <p class="unfinish finish">已完成</p>
                 </div>
-            </marquee>
+                 <div class="heart blood_sugar">
+                    <ul class="box_txt" >
+                        <li class="ul_li1">测血糖</li>
+                        <li class="ul_li2">07:30</li>
+                        <li class="ul_li3">已记录</li>
+                    </ul>
+                    <p class="unfinish finish">已完成</p>
+                </div>
+                 <div class="heart blood_sugar">
+                    <ul class="box_txt" >
+                        <li class="ul_li1">测血糖</li>
+                        <li class="ul_li2">07:30</li>
+                        <li class="ul_li3">已记录</li>
+                    </ul>
+                    <p class="unfinish finish">已完成</p>
+                </div>
+            </div>
         </div>
         <div id="team">
             <p class="manage_pic">
-                <img src="/Health/public/Reception/images/guwen.png" />
+                <img src="/public/Reception/images/guwen.png" />
                 <a href="service_team.html">服务团队</a>
             </p>
             <div class="team_box">
-                <a href="/Health/index.php/Index/doctor_situation">
+                <a href="/index.php/Index/doctor_situation">
                     <ul class="team_ul">
                         <li class="team_li1">
-                            <img src="/Health/public/Reception/images/doc.jpg" />
+                            <img src="/public/Reception/images/doc.jpg" />
                         </li>
                         <li class="team_li2">健康源</li>
                         <li class="team_li3">高级顾问</li>
                     </ul>
                 </a>
-                <a href="/Health/index.php/Index/doctor_situation">
+                <a href="/index.php/Index/doctor_situation">
                     <ul class="team_ul">
                         <li class="team_li1">
-                            <img src="/Health/public/Reception/images/doc.jpg" />
+                            <img src="/public/Reception/images/doc.jpg" />
                         </li>
                         <li class="team_li2">健康源</li>
                         <li class="team_li3">高级顾问</li>
                     </ul>
                 </a>
-                <a href="/Health/index.php/Index/doctor_situation">
+                <a href="/index.php/Index/doctor_situation">
                     <ul class="team_ul">
                         <li class="team_li1">
-                            <img src="/Health/public/Reception/images/doc.jpg" />
+                            <img src="/public/Reception/images/doc.jpg" />
                         </li>
                         <li class="team_li2">健康源</li>
                         <li class="team_li3">高级顾问</li>
                     </ul>
                 </a>
-                <a href="/Health/index.php/Index/doctor_situation">
+                <a href="/index.php/Index/doctor_situation">
                     <ul class="team_ul">
                         <li class="team_li1">
-                            <img src="/Health/public/Reception/images/doc.jpg" />
+                            <img src="/public/Reception/images/doc.jpg" />
                         </li>
                         <li class="team_li2">健康源</li>
                         <li class="team_li3">高级顾问</li>
@@ -327,25 +367,25 @@
     </div>
     <div id="footer">
         <ul class="foot_img">
-            <li><img src="/Health/public/Reception/images/zixun.png" /></li>
+            <li><img src="/public/Reception/images/zixun.png" /></li>
         </ul>
         <div class="foot_left left_div" >
             <a href="#">
-                <img class="zhuye" src="/Health/public/Reception/images/zhuye.png" />
-                <img class="zhuye_hui" src="/Health/public/Reception/images/zhuye-hui.png" />
+                <img class="zhuye" src="/public/Reception/images/zhuye.png" />
+                <img class="zhuye_hui" src="/public/Reception/images/zhuye-hui.png" />
                 <p class="home_page">首页</p>
             </a>
         </div>
         <div class="foot_left foot_right">
-            <a href="#" class="right_a">
-                <img class="shangcheng" src="/Health/public/Reception/images/shangcheng.png" />
-                <img class="shangcheng_lv" src="/Health/public/Reception/images/shangcheng-lv.png" />
+            <a href="http://sh.cqljkj.com/shop/app/index.php?i=4&c=entry&m=ewei_shopv2&do=mobile" class="right_a">
+                <img class="shangcheng" src="/public/Reception/images/shangcheng.png" />
+                <img class="shangcheng_lv" src="/public/Reception/images/shangcheng-lv.png" />
                 <p class="store">商城</p>
             </a>
         </div>
     </div>
 </body>
-<script src="/Health/public/Reception/js/jquery-1.11.3.js"></script>
+<script src="/public/Reception/js/jquery-1.11.3.js"></script>
 <script>
     $('#footer').click(function () {
         $('.zhuye').hide();
