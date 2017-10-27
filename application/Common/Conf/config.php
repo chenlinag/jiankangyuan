@@ -9,4 +9,5 @@ return array(
     // 'DB_PORT'               =>  '',        // 端口
     // 'DB_PREFIX'             =>  '',    // 数据库表前缀
     // 'DB_FIELDS_CACHE'       =>  false, // 启用字段缓存
+    
 );
